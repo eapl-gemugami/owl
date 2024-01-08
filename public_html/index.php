@@ -18,6 +18,7 @@ define('PATH_VENDOR', PATH_SYSTEM . '/vendor');
 define('PATH_APP', PATH_SRC . '/app');
 define('PATH_CONTROLLER', PATH_SRC . '/app/controller');
 define('PATH_LIB', PATH_SRC . '/lib');
+
 define('PATH_CONFIG', PATH_APP . '/config');
 define('PATH_I18N', PATH_APP . '/i18n');
 define('PATH_VIEW', PATH_APP . '/view');
