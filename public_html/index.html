@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="/css/style.css" rel="stylesheet">
-    <title>Send a message</title>
+	<link href="/css/style.css" rel="stylesheet">
+	<title>Send a message</title>
 </head>
 <body class="post post-create">
 
-    <h1>Send a message</h1>
-    <form action="/posts/save" method="post">
+	<h1>Send a message</h1>
+	<form action="/posts/save" method="post">
 
-    <div class="field" id="field-title">
-        <label for="address">Address to send </label>
-        <input type="text" name="address" id="address" value="" autocomplete="off" placeholder="Address..." required autofocus/>
-    </div>
+	<div class="field" id="field-title">
+		<label for="address">Address to send </label>
+		<input type="text" name="address" id="address" value="" autocomplete="off" placeholder="Address..." required autofocus/>
+	</div>
 
-    <div class="field" id="field-content">
-        <label for="content">Message (<a href="/gemtext.html" target="_blank">Style it with Gemtext</a>)</label>
-        <textarea class="editor" name="content" placeholder="Start typing..." id="content" rows="6" cols="49" required></textarea>
-    </div>
+	<div class="field" id="field-content">
+		<label for="content">Message (<a href="/gemtext.html" target="_blank">Style it with Gemtext</a>)</label>
+		<textarea class="editor" name="content" placeholder="Start typing..." id="content" rows="6" cols="49" required></textarea>
+	</div>
 
-    <input type="submit" value="Submit">
-    </form>
+	<input type="submit" value="Submit">
+	</form>
 </body>
 </html>

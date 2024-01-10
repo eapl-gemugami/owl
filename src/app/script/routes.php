@@ -22,6 +22,22 @@ function _url_get_register() {
 	view('register', createKeyPair());
 }
 
+function _url_get_send($address) {
+	view('send', ['address' => $address]);
+}
+
+function _url_post_signandpreview() {
+	# Redirect to
+	header("Location: preview");
+	die();
+}
+
+function _url_get_preview() {
+	echo 'Preview';
+	#view('preview', []);
+}
+
+
 /*
 function _url_get_savemessage() {
 require_once PATH_APP . '/controller/save_message.php';

@@ -18,7 +18,6 @@ include_once PATH_APP . '/view/partials/header.php';
 <p><a href='/inbox/<?= $privateKey ?>'>https://owl.eapl.me/owl/inbox/<?= $privateKey ?></a>
 <hr>
 
-
 <details>
   <summary><strong>Advanced</strong></summary>
   <p>This is your Address (Public Key):</p>
